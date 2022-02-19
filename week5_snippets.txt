@@ -1,0 +1,53 @@
+Practical 5 snippets:
+
+---------------------------------------------------------------------------------------------------------
+Can you work out the percentage area of Northern Ireland that is covered by each of the 10 landcover classes?
+
+Remember that % area is just the area of the class divided by the area of the total:
+
+total = np.count_nonzero(landcover) # this is the number of nonzero cells in landcover
+# alternatively, you could also get this by summing the # of cells for all classes
+# total = np.array(list(unique_landcover.values())).sum()
+
+# loop over the keys (landcover classes), and print the percent total for each class
+for val in unique_landcover.keys():
+    print('{}: {:.2f}'.format(val, 100 * unique_landcover[val] / total))
+
+---------------------------------------------------------------------------------------------------------
+
+What is the total area (in km2) covered by "Mountain, heath, bog" in County Down?
+
+To get the number of pixels for "Mountain, heath, bog" in County Down, use the stats_dict:
+
+npix = stats_dict['Down']['Mountain, heath, bog']
+
+This only gives us the number of pixels, though - to get the area, we have to multiply the number of pixels by the pixel size,
+which we can get from the Affine Transformation for our image:
+
+dx, _, xmin, _, dy, ymin, _, _, _ = list(affine_tfm)
+
+area = npix * dx * np.abs(dy) # in square meters
+area = npix * dx * np.abs(dy) / 1e6 # in square kilometers
+
+---------------------------------------------------------------------------------------------------------
+
+Of the 10 different landcover types shown here, which one has the highest mean elevation? What about the largest spread in elevation values?
+
+We can find the mean, min, and max elevation values (and thus, range) for each of our values as follows:
+
+import pandas as pd
+
+# create an empty pandas dataframe to help us read the results
+stats_df = pd.DataFrame()
+
+# we can use the lists of old keys and new keys we initiated earlier
+# to loop over the different landcover values
+for old, new in zip(old_names, new_names):
+    lc_mask = landcover == old
+    stats_df.loc[int(old), 'Name'] = new
+    stats_df.loc[int(old), 'Mean El.'] = np.nanmean(dem[lc_mask])
+    stats_df.loc[int(old), 'Min. El.'] = np.nanmin(dem[lc_mask])
+    stats_df.loc[int(old), 'Max. El.'] = np.nanmax(dem[lc_mask])
+    stats_df.loc[int(old), 'El. Range'] = np.nanmax(dem[lc_mask]) - np.nanmin(dem[lc_mask])
+
+print(stats_df)
