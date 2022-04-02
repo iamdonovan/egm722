@@ -28,13 +28,13 @@ def scale_bar(ax, location=(0.92, 0.95)):
     sbx = x0 + (x1 - x0) * location[0]
     sby = y0 + (y1 - y0) * location[1]
 
-    plt.plot([sbx, sbx - 20000], [sby, sby], color='k', linewidth=9, transform=tmc)
-    plt.plot([sbx, sbx - 10000], [sby, sby], color='k', linewidth=6, transform=tmc)
-    plt.plot([sbx-10000, sbx - 20000], [sby, sby], color='w', linewidth=6, transform=tmc)
+    ax.plot([sbx, sbx - 20000], [sby, sby], color='k', linewidth=9, transform=tmc)
+    ax.plot([sbx, sbx - 10000], [sby, sby], color='k', linewidth=6, transform=tmc)
+    ax.plot([sbx-10000, sbx - 20000], [sby, sby], color='w', linewidth=6, transform=tmc)
 
-    plt.text(sbx, sby-4500, '20 km', transform=tmc, fontsize=8)
-    plt.text(sbx-12500, sby-4500, '10 km', transform=tmc, fontsize=8)
-    plt.text(sbx-24500, sby-4500, '0 km', transform=tmc, fontsize=8)
+    ax.text(sbx, sby-4500, '20 km', transform=tmc, fontsize=8)
+    ax.text(sbx-12500, sby-4500, '10 km', transform=tmc, fontsize=8)
+    ax.text(sbx-24500, sby-4500, '0 km', transform=tmc, fontsize=8)
 
 
 # load the datasets
@@ -128,7 +128,7 @@ ax.set_extent([xmin, xmax, ymin, ymax], crs=myCRS)
 # add the text labels for the towns
 for i, row in towns.iterrows():
     x, y = row.geometry.x, row.geometry.y
-    plt.text(x, y, row['TOWN_NAME'].title(), fontsize=8, transform=myCRS) # use plt.text to place a label at x,y
+    ax.text(x, y, row['TOWN_NAME'].title(), fontsize=8, transform=myCRS) # use plt.text to place a label at x,y
 
 scale_bar(ax)
 
