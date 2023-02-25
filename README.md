@@ -52,11 +52,11 @@ which should launch a web browser window, which should give you an overview of t
 ## 5. Next steps
 The material for this module is organized as follows:
 
-Week 1. Introduction to git and programming with python
-Week 2. More introduction to python
-Week 3. Working with vector data in python
-Week 4. Working with raster data in python
-Week 5. Additional exercises
+- Week 1. Introduction to git and programming with python
+- Week 2. More introduction to python
+- Week 3. Working with vector data in python
+- Week 4. Working with raster data in python
+- Week 5. Additional exercises
 
 You are free to work through the material at your own pace. If you are enrolled in EGM722 at Ulster University, you
 will find additional resources via the module webpage on Blackboard.
