@@ -6,17 +6,6 @@ import cartopy.crs as ccrs
 import matplotlib.patches as mpatches
 
 
-# generate matplotlib handles to create a legend of the features we put in our map.
-def generate_handles(labels, colors, edge='k', alpha=1):
-    lc = len(colors)  # get the length of the color list
-    handles = []
-    for i in range(len(labels)):
-        handles.append(mpatches.Rectangle((0, 0), 1, 1, facecolor=colors[i % lc], edgecolor=edge, alpha=alpha))
-    return handles
-
-
-plt.ion()
-
 # ---------------------------------------------------------------------------------------------------------------------
 # in this section, write the script to load the data and complete the main part of the analysis.
 # try to print the results to the screen using the format method demonstrated in the workbook
@@ -50,9 +39,9 @@ ward_plot = wards.plot(column='Population', ax=ax, vmin=1000, vmax=8000, cmap='v
 county_outlines = ShapelyFeature(counties['geometry'], myCRS, edgecolor='r', facecolor='none')
 
 ax.add_feature(county_outlines)
-county_handles = generate_handles([''], ['none'], edge='r')
+county_handles = [mpatches.Rectangle((0, 0), 1, 1, facecolor='none', edgecolor='r')]
 
 ax.legend(county_handles, ['County Boundaries'], fontsize=12, loc='upper left', framealpha=1)
 
 # save the figure
-# fig.savefig('sample_map.png', dpi=300, bbox_inches='tight')
+fig.savefig('sample_map.png', dpi=300, bbox_inches='tight')
