@@ -3,18 +3,10 @@ import rasterio as rio
 import geopandas as gpd
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
-from shapely.ops import cascaded_union
+from shapely.ops import unary_union
 from shapely.geometry.polygon import Polygon
 from cartopy.feature import ShapelyFeature
 import matplotlib.patches as mpatches
-
-
-def generate_handles(labels, colors, edge='k', alpha=1):
-    lc = len(colors)  # get the length of the color list
-    handles = []
-    for i in range(len(labels)):
-        handles.append(mpatches.Rectangle((0, 0), 1, 1, facecolor=colors[i % lc], edgecolor=edge, alpha=alpha))
-    return handles
 
 
 def percentile_stretch(img, pmin=0., pmax=100.):
@@ -69,3 +61,29 @@ with rio.open('data_files/NI_Mosaic.tif') as dataset:
     xmin, ymin, xmax, ymax = dataset.bounds
 
 # your code goes here!
+# start by loading the outlines and point data to add to the map
+
+
+# next, create the figure and axis objects to add the map to
+
+
+# now, add the satellite image to the map
+
+
+# next, add the county outlines to the map
+
+
+# then, add the town and city points to the map, but separately
+
+
+# finally, try to add a transparent overlay to the map
+# note: one way you could do this is to combine the individual county shapes into a single shape, then
+# use a geometric operation, such as a symmetric difference, to create a hole in a rectangle.
+# then, you can add the output of the symmetric difference operation to the map as a semi-transparent feature.
+
+
+# last but not least, add gridlines to the map
+
+
+# and of course, save the map!
+
