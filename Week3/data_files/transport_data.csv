@@ -1,0 +1,583 @@
+Ward Code,NumBus,NearestTrain,Distance
+95DD05,8,Ballymena Rail Station,1.95
+95DD06,19,Ballymena Rail Station,1.44
+95DD03,19,Ballymena Bus Station,1.86
+95DD04,19,Ballymena Rail Station,1.95
+95DD09,86,Ballymena Rail Station,7.03
+95DD07,23,Ballymena Rail Station,5.04
+95DD08,10,Ballymena Rail Station,0.88
+95DD01,11,Ballymena Bus Station,1.06
+95DD02,13,Ballymena Bus Station,5.02
+95AA05,36,Antrim Bus Station,9.39
+95AA06,17,Crumlin Rail Halt,2.48
+95AA03,11,Antrim Rail Station,2.21
+95DD16,101,Ballymena Rail Station,11.7
+95AA04,31,Crumlin Rail Halt,7.77
+95DD17,101,Ballymena Bus Station,8.89
+95AA09,17,Antrim Rail Station,0.61
+95DD14,23,Ballymena Bus Station,2.63
+95DD15,75,Ballymena Rail Station,13.4
+95AA07,34,Antrim Bus Station,11.04
+95AA08,15,Antrim Rail Station,2.13
+95DD18,13,Ballymena Bus Station,2.02
+95DD19,47,Ballymena Bus Station,6.24
+95AA01,68,Crumlin Rail Halt,5.65
+95AA02,14,Antrim Bus Station,2.06
+95DD12,97,Ballymena Bus Station,9.9
+95DD13,8,Ballymena Rail Station,1.29
+95DD10,13,Ballymena Bus Station,5.06
+95NN05,15,Downpatrick Bus Station,14.05
+95DD11,8,Ballymena Rail Station,2.11
+95NN06,46,Newcastle Bus Station,9.31
+95NN03,25,Lisburn Bus Station,13.89
+95NN04,28,Downpatrick Bus Station,1.74
+95NN09,35,Downpatrick Bus Station,12.13
+95QQ14,107,Larne Bus Station,8.08
+95NN07,30,Downpatrick Bus Station,1.16
+95QQ15,14,Larne Rail Station,0.81
+95NN08,34,Downpatrick Bus Station,5.79
+95NN01,44,Downpatrick Bus Station,7.93
+95NN02,18,Downpatrick Bus Station,1.73
+95QQ12,15,Larne Rail Station,0.57
+95QQ13,25,Magheramorne Rail Halt,2.45
+95QQ10,93,Larne Bus Station,10.69
+95QQ11,50,Glynn Rail Halt,3.62
+95UU05,32,Ballymoney Rail Station,12.54
+95UU06,4,Ballymoney Rail Station,23.01
+95UU03,14,Portrush Rail Station,28.82
+95UU04,22,Portrush Rail Station,9.03
+95UU09,34,Ballymena Rail Station,22.35
+95UU07,34,Portrush Rail Station,13.41
+95GG38,29,Belfast - Botanic Rail Station,2.29
+95UU08,23,Ballymena Rail Station,24.51
+95GG39,102,Belfast - Europa/Gvs,0.36
+95KK05,41,Cookstown Bus Station,15.1
+95GG36,17,Belfast - Sydenham Rail Halt,2.24
+95KK06,10,Cookstown Bus Station,1.49
+95GG37,30,Belfast - Central Rail Station,1.48
+95KK03,30,Cookstown Bus Station,12.86
+95NN16,57,Downpatrick Bus Station,13.49
+95KK04,22,Cookstown Bus Station,1.62
+95UU01,30,Ballymoney Rail Station,15.2
+95NN17,35,Newcastle Bus Station,2.49
+95KK09,22,Cookstown Bus Station,0.49
+95UU02,15,Portrush Rail Station,10.13
+95NN14,40,Downpatrick Bus Station,6.34
+95NN15,13,Downpatrick Bus Station,8.94
+95KK07,20,Cookstown Bus Station,6.77
+95GG30,34,Belfast - Sydenham Rail Halt,2.29
+95KK08,16,Cookstown Bus Station,5.56
+95GG31,24,Finaghy Rail Halt,1.14
+95NN18,26,Downpatrick Bus Station,2.29
+95NN19,24,Comber Bus Station,10.58
+95GG34,27,Finaghy Rail Halt,0.47
+95GG35,34,Belfast - Yorkgate Rail Station,0.72
+95GG32,51,Belfast - Yorkgate Rail Station,5.04
+95KK01,30,Magherafelt Bus Station,14.67
+95KK02,31,Cookstown Bus Station,5.43
+95GG33,24,Belfast - Balmoral Rail Halt,0.63
+95NN12,62,Newcastle Bus Station,6.03
+95NN13,89,Downpatrick Bus Station,13.13
+95NN10,29,Newcastle Bus Station,2.61
+95NN11,64,Downpatrick Bus Station,8.43
+95GG49,15,Belfast - Adelaide Rail Halt,0.5
+95KK16,10,Cookstown Bus Station,0.91
+95GG47,42,Belfast - Yorkgate Rail Station,1.28
+95GG48,14,Belfast - Adelaide Rail Halt,2.17
+95KK14,18,Cookstown Bus Station,7.19
+95KK15,20,Magherafelt Bus Station,7.92
+95GG41,62,Belfast - Sydenham Rail Halt,3.27
+95GG42,22,Belfast - Adelaide Rail Halt,1.59
+95GG40,17,Belfast - Europa/Gvs,1.24
+95GG45,27,Finaghy Rail Halt,2.15
+95GG46,11,Belfast - Adelaide Rail Halt,3.13
+95NN20,76,Downpatrick Bus Station,6.32
+95KK12,40,Cookstown Bus Station,12.2
+95GG43,50,Belfast - Sydenham Rail Halt,1.88
+95KK13,66,Cookstown Bus Station,5.53
+95GG44,29,Belfast - Bridge End Rail Halt,1.21
+95KK10,30,Cookstown Bus Station,5.88
+95NN23,76,Newcastle Bus Station,6.6
+95KK11,14,Cookstown Bus Station,0.96
+95NN21,30,Newcastle Bus Station,0.81
+95XX25,9,Bangor Bus & Rail,0.94
+95NN22,51,Downpatrick Bus Station,7.48
+95XX20,22,Hollywood Rail Halt,1.99
+95XX23,11,Bangor West Rail Halt,0.76
+95XX24,18,Carnalea Rail Halt,1.01
+95XX21,6,Bangor West Rail Halt,0.53
+95XX22,11,Bangor Bus & Rail,1.05
+95GG50,11,Belfast - Central Rail Station,0.81
+95GG51,17,Belfast - Europa/Gvs,2.29
+95CC05,58,Armagh Bus Station,8.75
+95CC06,24,Armagh Bus Station,1.9
+95CC03,25,Armagh Bus Station,0.88
+95CC04,32,Armagh Bus Station,12.43
+95CC09,45,Armagh Bus Station,8.45
+95CC07,44,Armagh Bus Station,14.15
+95CC08,13,Armagh Bus Station,1.36
+95CC01,25,Armagh Bus Station,1.4
+95CC02,58,Armagh Bus Station,6.02
+95CC16,22,Poyntzpass Rail Halt,9.29
+95CC17,51,Armagh Bus Station,5.23
+95CC14,24,Portadown Rail Station,6.66
+95CC15,42,Portadown Rail Station,7.95
+95CC18,21,Armagh Bus Station,1.6
+95CC19,30,Poyntzpass Rail Halt,3.26
+95CC12,38,Armagh Bus Station,8.42
+95CC13,67,Armagh Bus Station,10.79
+95CC10,38,Armagh Bus Station,7.31
+95CC11,10,Armagh Bus Station,11.72
+95GG05,19,Belfast - Botanic Rail Station,1.43
+95GG06,24,Belfast - Yorkgate Rail Station,3.41
+95GG03,29,Belfast - Sydenham Rail Halt,1.36
+95GG04,29,Belfast - Bridge End Rail Halt,0.43
+95TT05,18,Magherafelt Bus Station,0.14
+95GG09,40,Belfast - Sydenham Rail Halt,1.71
+95TT06,39,Magherafelt Bus Station,9.84
+95TT03,31,Magherafelt Bus Station,5.17
+95GG07,12,Belfast - City Hospital Rail Halt,1.67
+95TT04,23,Cookstown Bus Station,15.0
+95GG08,47,Whiteabbey Rail Halt,3.12
+95TT09,57,Magherafelt Bus Station,15.44
+95CC20,20,Armagh Bus Station,7.53
+95TT07,46,Magherafelt Bus Station,4.43
+95TT08,32,Magherafelt Bus Station,4.91
+95GG01,13,Finaghy Rail Halt,1.04
+95JJ05,8,Coleraine Bus & Rail,0.14
+95GG02,10,Belfast - Yorkgate Rail Station,2.34
+95JJ06,18,Coleraine Bus & Rail,1.71
+95CC21,13,Scarva Rail Halt,3.98
+95JJ03,11,Coleraine University Rail Halt,0.64
+95MM16,45,L'Derry Rail Station,4.72
+95CC22,14,Armagh Bus Station,0.91
+95TT01,37,Magherafelt Bus Station,5.24
+95JJ04,41,Castlerock Rail Halt,2.61
+95MM17,18,L'Derry Bus Station,1.7
+95TT02,35,Magherafelt Bus Station,10.19
+95JJ09,50,Portrush Rail Station,6.42
+95MM14,13,L'Derry Bus Station,0.78
+95MM15,28,L'Derry Rail Station,9.41
+95JJ07,13,Coleraine Bus & Rail,0.87
+95JJ08,73,Coleraine Bus & Rail,2.18
+95MM18,39,L'Derry Rail Station,4.78
+95MM19,22,L'Derry Rail Station,2.09
+95JJ01,62,Ballymoney Rail Station,7.9
+95JJ02,23,Portrush Dhu Varren Rail Halt,1.63
+95MM12,24,L'Derry Bus Station,3.61
+95PP20,39,Enniskillen Bus Station,1.23
+95MM13,43,L'Derry Bus Station,5.8
+95MM10,9,L'Derry Bus Station,1.76
+95MM11,8,L'Derry Bus Station,1.86
+95PP23,33,Enniskillen Bus Station,12.97
+95GG16,20,Belfast - Yorkgate Rail Station,2.07
+95PP21,12,Enniskillen Bus Station,28.1
+95QQ05,41,Larne Rail Station,4.51
+95GG17,28,Belfast - Yorkgate Rail Station,2.55
+95PP22,26,Enniskillen Bus Station,1.65
+95GG14,16,Belfast - Yorkgate Rail Station,3.64
+95QQ06,54,Larne Rail Station,20.55
+95QQ03,5,Larne Bus Station,1.98
+95GG15,19,Belfast - Sydenham Rail Halt,3.28
+95TT16,35,Ballymena Bus Station,15.64
+95QQ04,10,Larne Rail Station,1.79
+95QQ09,14,Larne Rail Station,1.31
+95TT14,9,Magherafelt Bus Station,1.08
+95GG18,16,Belfast - Europa/Gvs,1.67
+95TT15,34,Magherafelt Bus Station,15.28
+95QQ07,26,Larne Bus Station,0.18
+95GG19,20,Belfast - Europa/Gvs,1.88
+95QQ08,8,Larne Bus Station,1.78
+95GG12,35,Belfast - Botanic Rail Station,0.5
+95JJ16,17,Portrush Dhu Varren Rail Halt,3.79
+95GG13,41,Belfast - Yorkgate Rail Station,2.91
+95QQ01,14,Larne Bus Station,1.12
+95JJ17,80,Coleraine Bus & Rail,13.09
+95QQ02,44,Magheramorne Rail Halt,2.78
+95GG10,27,Belfast - Adelaide Rail Halt,0.4
+95JJ14,67,Coleraine Bus & Rail,5.93
+95GG11,16,Belfast - Sydenham Rail Halt,1.31
+95MM27,25,L'Derry Bus Station,0.72
+95TT12,48,Magherafelt Bus Station,8.2
+95JJ15,19,Coleraine Bus & Rail,1.04
+95MM28,22,L'Derry Rail Station,0.57
+95TT13,11,Magherafelt Bus Station,0.95
+95MM25,27,L'Derry Bus Station,4.52
+95TT10,9,Magherafelt Bus Station,10.65
+95MM26,19,L'Derry Bus Station,2.68
+95TT11,39,Magherafelt Bus Station,16.15
+95JJ18,20,Portrush Rail Station,1.22
+95JJ19,17,Castlerock Rail Halt,3.55
+95MM29,17,L'Derry Rail Station,0.41
+95MM20,20,L'Derry Rail Station,1.31
+95JJ12,29,Ballymoney Rail Station,13.8
+95JJ13,18,Coleraine Bus & Rail,2.46
+95JJ10,43,Ballymoney Rail Station,17.55
+95MM23,12,L'Derry Bus Station,0.95
+95JJ11,20,Portrush Dhu Varren Rail Halt,1.05
+95MM24,11,L'Derry Bus Station,3.25
+95MM21,22,L'Derry Rail Station,3.44
+95MM22,14,L'Derry Bus Station,1.86
+95GG27,30,Finaghy Rail Halt,4.11
+95GG28,27,Belfast - Europa/Gvs,3.38
+95GG25,16,Finaghy Rail Halt,1.98
+95XX05,39,Bangor Bus & Rail,0.81
+95GG26,23,Belfast - Europa/Gvs,4.72
+95XX06,26,Bangor Bus & Rail,1.99
+95XX03,17,Bangor Bus & Rail,3.46
+95XX04,12,Bangor Bus & Rail,2.38
+95GG29,48,Belfast - Sydenham Rail Halt,0.85
+95XX09,31,Bangor Bus & Rail,2.41
+95GG20,98,Belfast - Yorkgate Rail Station,1.91
+95XX07,12,Bangor Bus & Rail,1.57
+95XX08,22,Bangor West Rail Halt,0.34
+95GG23,23,Dunmurry Rail Halt,1.13
+95GG24,27,Belfast - Yorkgate Rail Station,1.91
+95GG21,45,Belfast - Europa/Gvs,0.67
+95XX01,18,Bangor Bus & Rail,3.12
+95GG22,28,Belfast - Adelaide Rail Halt,1.53
+95XX02,21,Bangor Bus & Rail,1.72
+95JJ20,30,Coleraine Bus & Rail,2.42
+95MM30,14,L'Derry Bus Station,0.83
+95JJ21,24,Coleraine University Rail Halt,0.4
+95JJ22,17,Coleraine Bus & Rail,1.6
+95XX16,32,Bangor Bus & Rail,4.4
+95XX17,8,Bangor Bus & Rail,0.72
+95XX14,10,Marino Rail Halt,1.29
+95XX15,22,Bangor West Rail Halt,1.23
+95XX18,13,Hollywood Rail Halt,0.72
+95XX19,7,Marino Rail Halt,2.03
+95XX12,22,Seahill Rail Halt,2.18
+95XX13,15,Helen'S Bay Rail Halt,0.94
+95XX10,23,Bangor West Rail Halt,2.53
+95XX11,27,Bangor Bus & Rail,3.17
+95FF05,13,Moira Rail Halt,9.67
+95FF06,10,Banbridge Bus Station,10.87
+95FF03,19,Banbridge Bus Station,1.46
+95FF04,45,Banbridge Bus Station,5.35
+95FF09,17,Scarva Rail Halt,4.73
+95FF07,15,Banbridge Bus Station,1.29
+95FF08,11,Banbridge Bus Station,1.29
+95FF01,22,Banbridge Bus Station,1.28
+95FF02,65,Newcastle Bus Station,13.09
+95FF16,14,Banbridge Bus Station,1.69
+95FF17,19,Banbridge Bus Station,0.12
+95PP05,30,Enniskillen Bus Station,20.0
+95FF14,27,Banbridge Bus Station,7.14
+95PP06,29,Enniskillen Bus Station,2.14
+95FF15,14,Newry Bus Station,13.47
+95PP03,85,Enniskillen Bus Station,24.99
+95PP04,59,Enniskillen Bus Station,8.44
+95PP09,21,Enniskillen Bus Station,2.28
+95PP07,53,Enniskillen Bus Station,13.85
+95PP08,46,Enniskillen Bus Station,19.4
+95FF12,29,Banbridge Bus Station,3.45
+95II16,25,Belfast - Central Rail Station,2.97
+95FF13,29,Poyntzpass Rail Halt,3.45
+95PP01,46,Enniskillen Bus Station,8.68
+95II17,22,Belfast - Sydenham Rail Halt,3.68
+95FF10,39,Banbridge Bus Station,12.23
+95PP02,68,Enniskillen Bus Station,24.34
+95II14,7,Belfast - Central Rail Station,3.64
+95FF11,56,Banbridge Bus Station,11.09
+95II15,12,Belfast - Adelaide Rail Halt,4.96
+95LL25,17,Lurgan Rail Station,4.14
+95LL26,9,Lurgan Rail Station,0.66
+95II18,22,Belfast - Balmoral Rail Halt,2.78
+95II19,27,Comber Bus Station,7.41
+95LL20,11,Lurgan Rail Station,1.81
+95II12,15,Belfast - Sydenham Rail Halt,3.68
+95II13,18,Belfast - Sydenham Rail Halt,5.78
+95II10,5,Comber Bus Station,5.19
+95LL23,3,Portadown Rail Station,0.71
+95II11,5,Belfast - Botanic Rail Station,3.8
+95LL24,47,Portadown Rail Station,7.7
+95LL21,18,Lurgan Rail Station,1.27
+95MM05,9,L'Derry Bus Station,1.21
+95LL22,17,Lurgan Rail Station,2.0
+95MM06,20,L'Derry Bus Station,2.78
+95MM03,30,L'Derry Rail Station,17.86
+95MM04,10,L'Derry Bus Station,1.0
+95PP16,56,Enniskillen Bus Station,11.01
+95MM09,44,L'Derry Rail Station,10.49
+95PP17,15,Enniskillen Bus Station,15.93
+95WW05,27,Mossley West Rail Halt,2.33
+95PP14,45,Enniskillen Bus Station,19.75
+95MM07,22,L'Derry Bus Station,1.97
+95WW06,86,Ballyclare Bus Station,3.69
+95PP15,50,Enniskillen Bus Station,5.3
+95MM08,24,L'Derry Rail Station,1.29
+95WW03,25,Ballyclare Bus Station,0.66
+95WW04,14,Mossley West Rail Halt,1.25
+95WW09,16,Mossley West Rail Halt,1.23
+95PP18,68,Enniskillen Bus Station,11.11
+95PP19,32,Enniskillen Bus Station,27.22
+95WW07,63,Ballyclare Bus Station,2.85
+95MM01,27,L'Derry Rail Station,2.64
+95WW08,7,Mossley West Rail Halt,1.65
+95MM02,15,L'Derry Bus Station,3.48
+95PP12,55,Enniskillen Bus Station,12.51
+95PP13,11,Enniskillen Bus Station,14.54
+95WW01,29,Whiteabbey Rail Halt,0.95
+95PP10,25,Enniskillen Bus Station,19.3
+95WW02,16,Ballyclare Bus Station,1.23
+95PP11,46,Enniskillen Bus Station,2.62
+95II20,31,Belfast - Adelaide Rail Halt,3.33
+95II23,16,Belfast - Botanic Rail Station,2.95
+95II21,23,Belfast - Sydenham Rail Halt,4.12
+95II22,16,Belfast - Sydenham Rail Halt,4.35
+95ZZ05,9,L'Derry Rail Station,17.16
+95ZZ06,9,L'Derry Rail Station,21.07
+95ZZ03,7,Omagh Bus Station,22.93
+95ZZ04,32,Omagh Bus Station,19.55
+95ZZ09,16,Omagh Bus Station,13.07
+95WW16,8,Mossley West Rail Halt,2.51
+95ZZ07,13,Omagh Bus Station,23.4
+95WW17,16,Mossley West Rail Halt,1.39
+95ZZ08,18,Omagh Bus Station,30.76
+95WW14,16,Whiteabbey Rail Halt,1.66
+95WW15,12,Whiteabbey Rail Halt,2.71
+95WW18,13,Mossley West Rail Halt,2.85
+95WW19,12,Jordanstown Rail Station,0.81
+95ZZ01,24,L'Derry Rail Station,17.31
+95ZZ02,7,L'Derry Rail Station,21.47
+95WW12,17,Whiteabbey Rail Halt,0.85
+95WW13,71,Ballyclare Bus Station,3.9
+95WW10,28,Whiteabbey Rail Halt,1.74
+95WW11,9,Whiteabbey Rail Halt,4.28
+95SS30,23,Lisburn Rail Station,0.79
+95ZZ16,12,L'Derry Rail Station,21.48
+95ZZ14,12,L'Derry Rail Station,22.39
+95ZZ15,26,Omagh Bus Station,20.5
+95WW25,30,Whiteabbey Rail Halt,1.28
+95ZZ12,9,Omagh Bus Station,23.13
+95ZZ13,20,L'Derry Rail Station,10.26
+95WW20,90,Mossley West Rail Halt,4.19
+95ZZ10,16,L'Derry Rail Station,19.62
+95ZZ11,19,Omagh Bus Station,21.34
+95WW23,21,Jordanstown Rail Station,0.56
+95WW24,31,Whiteabbey Rail Halt,2.12
+95WW21,18,Jordanstown Rail Station,1.11
+95WW22,31,Mossley West Rail Halt,0.51
+95BB05,67,Newtownards Bus Station,9.27
+95BB06,35,Newtownards Bus Station,0.98
+95BB03,48,Newtownards Bus Station,14.34
+95BB04,33,Newtownards Bus Station,2.66
+95EE16,30,Ballymoney Rail Station,7.37
+95BB09,22,Comber Bus Station,2.17
+95EE14,44,Ballymoney Rail Station,3.18
+95BB07,14,Comber Bus Station,1.53
+95EE15,53,Ballymoney Rail Station,9.55
+95BB08,7,Comber Bus Station,1.43
+95BB01,35,Comber Bus Station,7.38
+95BB02,24,Newtownards Bus Station,3.1
+95EE12,4,Ballymoney Rail Station,1.16
+95EE13,12,Ballymoney Rail Station,1.25
+95EE10,43,Ballymoney Rail Station,14.36
+95EE11,66,Ballymoney Rail Station,8.55
+95BB16,37,Comber Bus Station,3.1
+95BB17,39,Newtownards Bus Station,4.52
+95LL05,30,Craigavon Bus Station,4.37
+95BB14,28,Comber Bus Station,8.14
+95LL06,15,Portadown Rail Station,3.03
+95BB15,43,Downpatrick Bus Station,18.04
+95LL03,12,Portadown Rail Station,2.2
+95LL04,24,Portadown Rail Station,2.64
+95LL09,26,Lurgan Rail Station,0.76
+95BB18,42,Bangor Bus & Rail,8.62
+95VV05,20,Newry Bus Station,8.51
+95BB19,28,Newtownards Bus Station,1.77
+95LL07,3,Lurgan Rail Station,1.27
+95VV06,32,Newry Rail Station,5.35
+95LL08,10,Portadown Rail Station,0.48
+95VV03,20,Newry Rail Station,2.58
+95VV04,42,Newcastle Bus Station,11.21
+95VV09,8,Newry Rail Station,22.02
+95BB12,13,Newtownards Bus Station,2.08
+95VV07,13,Newry Bus Station,8.99
+95BB13,19,Newtownards Bus Station,2.23
+95LL01,48,Lurgan Rail Station,7.22
+95VV08,23,Newry Rail Station,17.76
+95BB10,47,Bangor Bus & Rail,6.1
+95LL02,29,Portadown Rail Station,3.16
+95BB11,10,Bangor Bus & Rail,8.51
+95VV01,36,Newcastle Bus Station,7.94
+95VV02,23,Newry Rail Station,0.67
+95LL16,39,Craigavon Bus Station,0.85
+95LL17,14,Portadown Rail Station,1.86
+95SS05,35,Lisburn Bus Station,1.67
+95LL14,11,Lurgan Rail Station,1.03
+95SS06,29,Dunmurry Rail Halt,3.95
+95LL15,19,Portadown Rail Station,1.06
+95II05,21,Belfast - Balmoral Rail Halt,6.96
+95SS03,71,Lisburn Bus Station,7.42
+95II06,8,Belfast - Balmoral Rail Halt,6.69
+95SS04,51,Lambeg Rail Halt,3.73
+95VV16,22,Newry Bus Station,5.1
+95II03,7,Belfast - Botanic Rail Station,5.0
+95SS09,51,Derriaghy Rail Halt,5.16
+95LL18,10,Lurgan Rail Station,2.34
+95VV17,41,Newry Bus Station,10.39
+95II04,21,Newtownards Bus Station,5.27
+95LL19,28,Lurgan Rail Station,4.07
+95VV14,14,Newry Bus Station,1.38
+95II09,8,Hollywood Rail Halt,4.79
+95BB20,31,Downpatrick Bus Station,14.79
+95SS07,44,Derriaghy Rail Halt,1.35
+95VV15,13,Newry Rail Station,1.07
+95SS08,42,Lisburn Bus Station,11.83
+95II07,15,Belfast - Central Rail Station,2.53
+95II08,14,Belfast - Central Rail Station,2.75
+95BB23,23,Newtownards Bus Station,1.93
+95VV18,22,Newcastle Bus Station,17.79
+95LL12,15,Craigavon Bus Station,2.86
+95VV19,19,Newcastle Bus Station,19.84
+95BB21,67,Comber Bus Station,19.92
+95LL13,21,Craigavon Bus Station,1.47
+95BB22,15,Newtownards Bus Station,2.88
+95SS01,49,Ballinderry Rail Halt,1.26
+95LL10,37,Craigavon Bus Station,7.46
+95SS02,26,Lisburn Rail Station,2.01
+95LL11,31,Lurgan Rail Station,6.95
+95II01,21,Comber Bus Station,5.16
+95II02,40,Belfast - Balmoral Rail Halt,4.1
+95VV12,20,Newry Rail Station,1.52
+95VV13,59,Newry Rail Station,6.55
+95VV10,25,Newry Bus Station,0.78
+95VV11,25,Newry Bus Station,2.62
+95YY16,43,Omagh Bus Station,12.82
+95YY17,33,Omagh Bus Station,17.93
+95YY14,14,Omagh Bus Station,2.22
+95SS16,23,Dunmurry Rail Halt,1.06
+95YY15,25,Omagh Bus Station,0.84
+95SS17,39,Knockmore Rail Halt,1.53
+95SS14,31,Hilden Rail Halt,2.18
+95VV27,15,Newry Bus Station,1.44
+95SS15,38,Knockmore Rail Halt,7.17
+95VV28,5,Newry Bus Station,0.88
+95YY18,9,Omagh Bus Station,15.32
+95VV25,42,Newry Rail Station,11.78
+95YY19,17,Omagh Bus Station,1.56
+95VV26,33,Newcastle Bus Station,14.51
+95SS18,24,Lisburn Bus Station,0.81
+95SS19,27,Lambeg Rail Halt,1.08
+95VV29,47,Newry Rail Station,6.0
+95YY12,30,Omagh Bus Station,9.5
+95YY13,19,Omagh Bus Station,1.63
+95VV20,48,Newcastle Bus Station,17.72
+95YY10,46,Omagh Bus Station,6.42
+95SS12,20,Hilden Rail Halt,0.38
+95YY11,5,Omagh Bus Station,14.32
+95SS13,33,Lisburn Rail Station,0.64
+95SS10,17,Dunmurry Rail Halt,0.19
+95VV23,25,Newry Bus Station,14.85
+95SS11,70,Glenavy Rail Halt,3.59
+95VV24,10,Newry Bus Station,10.14
+95VV21,30,Newry Bus Station,8.64
+95VV22,26,Newry Rail Station,12.87
+95SS27,5,Dunmurry Rail Halt,0.92
+95SS28,10,Knockmore Rail Halt,0.67
+95SS25,27,Knockmore Rail Halt,0.53
+95SS26,10,Dunmurry Rail Halt,2.02
+95SS29,9,Derriaghy Rail Halt,1.05
+95YY20,47,Omagh Bus Station,17.88
+95SS20,15,Knockmore Rail Halt,0.8
+95VV30,19,Newry Bus Station,1.56
+95YY21,20,Enniskillen Bus Station,16.41
+95SS23,38,Knockmore Rail Halt,3.61
+95SS24,14,Moira Rail Halt,2.27
+95SS21,39,Moira Rail Halt,3.35
+95SS22,17,Lambeg Rail Halt,1.08
+95AA16,14,Antrim Rail Station,0.78
+95AA17,8,Antrim Rail Station,1.15
+95AA14,63,Antrim Rail Station,5.89
+95AA15,22,Antrim Rail Station,1.73
+95AA18,56,Antrim Rail Station,7.21
+95AA19,62,Magherafelt Bus Station,11.47
+95AA12,65,Antrim Rail Station,7.15
+95DD20,10,Ballymena Rail Station,1.28
+95AA13,43,Antrim Bus Station,4.84
+95AA10,3,Antrim Rail Station,1.63
+95AA11,49,Antrim Bus Station,0.89
+95DD23,85,Ballymena Rail Station,11.57
+95DD24,4,Ballymena Rail Station,1.89
+95DD21,9,Ballymena Rail Station,1.11
+95EE05,35,Ballymoney Rail Station,3.67
+95DD22,76,Ballymena Bus Station,10.59
+95EE06,34,Ballymoney Rail Station,7.66
+95EE03,12,Ballymoney Rail Station,1.22
+95EE04,43,Ballymoney Rail Station,12.22
+95EE09,35,Ballymoney Rail Station,7.42
+95EE07,12,Ballymoney Rail Station,0.94
+95EE08,12,Ballymoney Rail Station,1.18
+95EE01,28,Ballymoney Rail Station,15.82
+95EE02,40,Ballymoney Rail Station,6.76
+95RR05,8,Limavady Bus Station,1.82
+95RR06,22,Limavady Bus Station,18.87
+95HH05,1,Clipperstown Rail Halt,0.5
+95RR03,6,Limavady Bus Station,1.65
+95HH06,31,Downshire Rail Halt,3.44
+95RR04,4,Limavady Bus Station,14.19
+95HH03,10,Downshire Rail Halt,0.56
+95RR09,29,Limavady Bus Station,10.09
+95HH04,5,Clipperstown Rail Halt,1.31
+95UU14,12,Ballymoney Rail Station,21.34
+95HH09,17,Carrickfergus Rail Station,0.42
+95RR07,26,Limavady Bus Station,7.43
+95UU15,33,Ballymoney Rail Station,15.9
+95RR08,27,Limavady Bus Station,8.36
+95HH07,10,Greenisland Rail Station,0.44
+95HH08,27,Trooperslane Rail Halt,0.87
+95RR01,29,Limavady Bus Station,5.01
+95RR02,13,Limavady Bus Station,2.84
+95HH01,7,Whitehead Rail Halt,1.24
+95HH02,9,Downshire Rail Halt,1.39
+95UU12,8,Ballymoney Rail Station,22.2
+95UU13,40,Ballymoney Rail Station,20.01
+95UU10,18,Ballymoney Rail Station,24.99
+95UU11,28,Ballymoney Rail Station,24.99
+95OO05,29,Dungannon Bus Station,0.59
+95OO06,52,Dungannon Bus Station,6.52
+95OO03,29,Dungannon Bus Station,13.38
+95OO04,27,Dungannon Bus Station,13.48
+95OO09,29,Omagh Bus Station,23.6
+95HH16,11,Whitehead Rail Halt,1.3
+95RR14,21,Limavady Bus Station,9.84
+95OO07,44,Dungannon Bus Station,11.69
+95HH17,39,Trooperslane Rail Halt,3.82
+95RR15,18,Limavady Bus Station,17.03
+95OO08,62,Dungannon Bus Station,5.39
+95HH14,2,Carrickfergus Rail Station,0.38
+95HH15,13,Downshire Rail Halt,1.04
+95OO01,45,Dungannon Bus Station,9.64
+95OO02,24,Dungannon Bus Station,20.89
+95RR12,5,Limavady Bus Station,1.0
+95RR13,11,Limavady Bus Station,0.28
+95HH12,12,Carrickfergus Rail Station,1.8
+95RR10,9,Limavady Bus Station,1.5
+95HH13,5,Clipperstown Rail Halt,0.69
+95RR11,41,Bellarena Rail Halt,0.97
+95HH10,10,Greenisland Rail Station,0.66
+95HH11,5,Carrickfergus Rail Station,0.89
+95OO16,24,Omagh Bus Station,23.01
+95OO17,66,Dungannon Bus Station,9.04
+95OO14,58,Dungannon Bus Station,5.59
+95OO15,31,Dungannon Bus Station,2.88
+95OO18,31,Dungannon Bus Station,2.45
+95OO19,52,Dungannon Bus Station,6.61
+95YY05,22,Omagh Bus Station,1.04
+95YY06,37,Omagh Bus Station,16.36
+95YY03,31,Omagh Bus Station,8.34
+95YY04,12,Omagh Bus Station,1.46
+95OO12,55,Dungannon Bus Station,5.52
+95YY09,26,Omagh Bus Station,2.05
+95OO13,21,Dungannon Bus Station,2.06
+95OO10,39,Dungannon Bus Station,8.37
+95YY07,40,Omagh Bus Station,8.68
+95OO11,29,Dungannon Bus Station,5.65
+95YY08,20,Omagh Bus Station,15.66
+95YY01,57,Omagh Bus Station,6.95
+95YY02,16,Omagh Bus Station,1.53
+95OO20,28,Dungannon Bus Station,2.07
+95OO21,30,Dungannon Bus Station,1.95
+95OO22,77,Dungannon Bus Station,10.95
