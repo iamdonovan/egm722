@@ -3,9 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8.8
-  - geopandas=0.9.0
-  - cartopy=0.18.0
-  - notebook=6.2.0
-  - rasterio=1.2.0
-prefix: C:\Users\e16006469\Anaconda3\envs\egm722
+  - python
+  - geopandas
+  - cartopy>=0.21
+  - notebook
+  - rasterio
+  - pyepsg
+  - folium
