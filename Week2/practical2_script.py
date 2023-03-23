@@ -130,6 +130,12 @@ for ind, row in towns.iterrows():  # towns.iterrows() returns the index and row
     x, y = row.geometry.x, row.geometry.y  # get the x,y location for each town
     ax.text(x, y, row['TOWN_NAME'].title(), fontsize=8, transform=myCRS)  # use plt.text to place a label at x,y
 
+# add the text labels for the cities
+for ind, row in towns.iterrows():  # cities.iterrows() returns the index and row
+    x, y = row.geometry.x, row.geometry.y  # get the x,y location for each town
+    ax.text(x, y, row['TOWN_NAME'].title(), fontsize=8, transform=myCRS)  # use plt.text to place a label at x,y
+
+
 # add the scale bar to the axis
 scale_bar(ax)
 
