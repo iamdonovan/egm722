@@ -42,6 +42,12 @@ water = gpd.read_file(os.path.abspath('data_files/Water.shp'))
 rivers = gpd.read_file(os.path.abspath('data_files/Rivers.shp'))
 counties = gpd.read_file(os.path.abspath('data_files/Counties.shp'))
 
+#create a Geodataframe for cities
+cities = towns.loc[towns['STATUS']=='City']
+
+#create a Geodataframe for towns only
+new_towns = towns.loc[towns['STATUS']=='Town']
+
 # create a figure of size 10x10 (representing the page size in inches)
 myFig = plt.figure(figsize=(10, 10))
 
@@ -98,7 +104,10 @@ river_feat = ShapelyFeature(rivers['geometry'],  # first argument is the geometr
 ax.add_feature(river_feat)  # add the collection of features to the map
 
 # ShapelyFeature creates a polygon, so for point data we can just use ax.plot()
-town_handle = ax.plot(towns.geometry.x, towns.geometry.y, 's', color='0.5', ms=6, transform=myCRS)
+new_town_handle = ax.plot(new_towns.geometry.x, new_towns.geometry.y, 'o', color='0.1', ms=6, transform=myCRS)
+
+# ShapelyFeature creates a polygon, so for point data we can just use ax.plot()
+cities_handle = ax.plot(cities.geometry.x, cities.geometry.y, 's', color='0.4', ms=6, transform=myCRS)
 
 # generate a list of handles for the county datasets
 county_handles = generate_handles(counties.CountyName.unique(), county_colors, alpha=0.25)
@@ -113,8 +122,8 @@ river_handle = [mlines.Line2D([], [], color='royalblue')]  # have to make this a
 nice_names = [name.title() for name in county_names]
 
 # ax.legend() takes a list of handles and a list of labels corresponding to the objects you want to add to the legend
-handles = county_handles + water_handle + river_handle + town_handle
-labels = nice_names + ['Lakes', 'Rivers', 'Towns']
+handles = county_handles + water_handle + river_handle + cities_handle + new_town_handle
+labels = nice_names + ['Lakes', 'Rivers', 'Cities', 'Towns']
 
 leg = ax.legend(handles, labels, title='Legend', title_fontsize=12,
                 fontsize=10, loc='upper left', frameon=True, framealpha=1)
@@ -130,14 +139,9 @@ for ind, row in towns.iterrows():  # towns.iterrows() returns the index and row
     x, y = row.geometry.x, row.geometry.y  # get the x,y location for each town
     ax.text(x, y, row['TOWN_NAME'].title(), fontsize=8, transform=myCRS)  # use plt.text to place a label at x,y
 
-# add the text labels for the cities
-for ind, row in towns.iterrows():  # cities.iterrows() returns the index and row
-    x, y = row.geometry.x, row.geometry.y  # get the x,y location for each town
-    ax.text(x, y, row['TOWN_NAME'].title(), fontsize=8, transform=myCRS)  # use plt.text to place a label at x,y
-
 
 # add the scale bar to the axis
 scale_bar(ax)
 
 # save the figure as map.png, cropped to the axis (bbox_inches='tight'), and a dpi of 300
-# myFig.savefig('map.png', bbox_inches='tight', dpi=300)
+myFig.savefig('my_map.png', bbox_inches='tight', dpi=300)
