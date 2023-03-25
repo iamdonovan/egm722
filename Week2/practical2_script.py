@@ -42,8 +42,6 @@ water = gpd.read_file(os.path.abspath('data_files/Water.shp'))
 rivers = gpd.read_file(os.path.abspath('data_files/Rivers.shp'))
 counties = gpd.read_file(os.path.abspath('data_files/Counties.shp'))
 
-print(towns)
-
 # create a figure of size 10x10 (representing the page size in inches)
 myFig = plt.figure(figsize=(10, 10))
 
