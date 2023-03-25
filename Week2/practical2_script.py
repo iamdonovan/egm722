@@ -42,6 +42,8 @@ water = gpd.read_file(os.path.abspath('data_files/Water.shp'))
 rivers = gpd.read_file(os.path.abspath('data_files/Rivers.shp'))
 counties = gpd.read_file(os.path.abspath('data_files/Counties.shp'))
 
+print(towns)
+
 # create a figure of size 10x10 (representing the page size in inches)
 myFig = plt.figure(figsize=(10, 10))
 
@@ -140,4 +142,4 @@ for ind, row in towns.iterrows():  # cities.iterrows() returns the index and row
 scale_bar(ax)
 
 # save the figure as map.png, cropped to the axis (bbox_inches='tight'), and a dpi of 300
-myFig.savefig('map.png', bbox_inches='tight', dpi=300)
+# myFig.savefig('map.png', bbox_inches='tight', dpi=300)
