@@ -2,6 +2,8 @@
 
 # EGM722: Programming for GIS and Remote Sensing Exercises
 
+For full setup and installation instructions, please see [the website](https://iamdonovan.github.io/teaching/egm722/setup/index.html).
+
 ## 1. Getting started
 
 To get started with the exercises, you'll need to install both `git` and `conda` on your computer. You can follow the
@@ -38,15 +40,15 @@ C:\Users\iamdonovan> conda env create -f environment.yml
 This will probably take some time (so feel free to catch up on Facebook or whatever kids do nowadays), but fortunately 
 you will only have to do this once. If you
 
-## 4. Start jupyter-notebook
+## 4. Start Jupyter Lab
 
-From Anaconda Navigator, you can launch jupyter-notebook directly, and navigate to the folder where the first week's
-practical material is located. Make sure that your egm722 environment is activated.
+From Anaconda Navigator, you can launch Jupyter Lab, and navigate to the folder where the first week's
+practical material is located. Make sure that your `egm722` environment is activated.
 
-From the command-line, first open a terminal window or an __Anaconda Prompt__, and navigate to the folder where the
-first week's practical material is located.
+From the command-line, first open a terminal window or an __Anaconda Prompt__, and navigate to the folder where you have
+cloned the repository.
 
-Activate your newly-created environment (`conda activate egm722`). Launch jupyter-notebook (`jupyter-notebook.exe`),
+Activate your newly-created environment (`conda activate egm722`). Next, run Jupyter Lab (`jupyter-lab`),
 which should launch a web browser window, which should give you an overview of the current folder. 
 
 ## 5. Next steps
