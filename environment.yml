@@ -6,7 +6,8 @@ dependencies:
   - python
   - geopandas
   - cartopy>=0.21
-  - notebook
+  - jupyterlab
+  - ipywidgets
   - rasterio
   - pyepsg
   - folium
