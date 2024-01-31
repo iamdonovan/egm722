@@ -11,8 +11,8 @@ import matplotlib.patches as mpatches
 def generate_handles(labels, colors, edge='k', alpha=1):
     lc = len(colors)  # get the length of the color list
     handles = []
-    for i in range(len(labels)):
-        handles.append(mpatches.Rectangle((0, 0), 1, 1, facecolor=colors[i % lc], edgecolor=edge, alpha=alpha))
+    for ii in range(len(labels)):
+        handles.append(mpatches.Rectangle((0, 0), 1, 1, facecolor=colors[ii % lc], edgecolor=edge, alpha=alpha))
     return handles
 
 
@@ -36,9 +36,9 @@ print(summary)
 # ---------------------------------------------------------------------------------------------------------------------
 # below here, you may need to modify the script somewhat to create your map.
 # create a crs using ccrs.UTM() that corresponds to our CRS
-myCRS = ccrs.UTM(29)
+ni_utm = ccrs.UTM(29)
 # create a figure of size 10x10 (representing the page size in inches
-fig, ax = plt.subplots(1, 1, figsize=(10, 10), subplot_kw=dict(projection=myCRS))
+fig, ax = plt.subplots(1, 1, figsize=(10, 10), subplot_kw=dict(projection=ni_utm))
 
 # add gridlines below
 gridlines = ax.gridlines(draw_labels=True,
