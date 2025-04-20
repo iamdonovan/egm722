@@ -93,9 +93,9 @@ ax.add_feature(county_outlines)
 county_handles = generate_handles([''], ['none'], edge='r') # Creating County Handles
 
 # then, add the town and city points to the map, but separately
-towns_only = settlements.loc[towns['STATUS'] == 'Town'] # Separating towns from dataset
+towns_only = settlements.loc[settlements['STATUS'] == 'Town'] # Separating towns from dataset
 
-cities_only = settlements.loc[towns['STATUS'] == 'City'] # Separating cities from dataset
+cities_only = settlements.loc[settlements['STATUS'] == 'City'] # Separating cities from dataset
 
 # ShapelyFeature creates a polygon, so for point data we can just use ax.plot()
 # Towns plotting
@@ -122,4 +122,4 @@ gridlines.right_labels = False # turn off the left-side labels
 gridlines.top_labels = False # turn off the bottom labels
 
 # and of course, save the map!
-
+fig.savefig('test1.png', dpi=300, bbox_inches='tight')
