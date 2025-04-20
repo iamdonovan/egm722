@@ -42,7 +42,7 @@ def img_display(img, ax, bands, stretch_args=None, **imshow_args):
         if stretch_args is None:  # if stretch_args is None, use the default values for percentile_stretch
             dispimg[b] = percentile_stretch(img[b])
         else:
-            dispimg[b] = percentile_stretch(img[b], **stretch_args)
+            dispimg[b] = percentile_stretch(img[b], *stretch_args)
 
     # next, we transpose the image to re-order the indices
     dispimg = dispimg.transpose([1, 2, 0])
@@ -56,7 +56,7 @@ def img_display(img, ax, bands, stretch_args=None, **imshow_args):
 # note - rasterio's open() function works in much the same way as python's - once we open a file,
 # we have to make sure to close it. One easy way to do this in a script is by using the with statement shown
 # below - once we get to the end of this statement, the file is closed.
-with rio.open('data_files/NI_Mosaic.tif') as dataset:
+with rio.open('Week4/data_files/NI_Mosaic.tif') as dataset:
     img = dataset.read()
     xmin, ymin, xmax, ymax = dataset.bounds
 
