@@ -8,6 +8,7 @@ from shapely.geometry.polygon import Polygon
 from cartopy.feature import ShapelyFeature
 import matplotlib.patches as mpatches
 from generate_handles import generate_handles
+from generate_handles import scale_bar
 
 def percentile_stretch(img, pmin=0., pmax=100.):
     '''
@@ -89,11 +90,13 @@ h, ax = img_display(img, ax, [2, 1, 0], stretch_args=stretch, **disp_kwargs) # A
 county_outlines = ShapelyFeature(counties['geometry'], ni_utm, edgecolor='r', facecolor='none')
 ax.add_feature(county_outlines)
 
-county_handles = generate_handles([''], ['none'], edge='r')
+county_handles = generate_handles([''], ['none'], edge='r') # Creating County Handles
 
 # then, add the town and city points to the map, but separately
 
 
+# add Scale Bar
+scale_bar(ax)
 
 
 # finally, try to add a transparent overlay to the map
