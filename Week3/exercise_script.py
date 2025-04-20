@@ -6,7 +6,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 from cartopy.feature import ShapelyFeature
 import cartopy.crs as ccrs
 import matplotlib.patches as mpatches
-from generate_handles import generate_handles
+from generate_handlesOLD import generate_handles
 
 # ---------------------------------------------------------------------------------------------------------------------
 # in this section, write the script to load the data and complete the main part of the analysis.

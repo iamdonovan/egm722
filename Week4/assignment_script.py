@@ -7,7 +7,7 @@ from shapely.ops import unary_union
 from shapely.geometry.polygon import Polygon
 from cartopy.feature import ShapelyFeature
 import matplotlib.patches as mpatches
-import generate_handles
+import generate_handles import generate_handles
 
 def percentile_stretch(img, pmin=0., pmax=100.):
     '''
