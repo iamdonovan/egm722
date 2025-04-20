@@ -77,7 +77,6 @@ fig, ax = plt.subplots(1, 1, figsize=(10, 10), subplot_kw=dict(projection=ni_utm
 ax.set_extent([xmin, xmax, ymin, ymax], crs=ni_utm) # Setting figure extent
 
 # now, add the satellite image to the map
-
 disp_kwargs = {'extent': [xmin, xmax, ymin, ymax], # Setting up display characteristics
                'transform': ni_utm}
 
@@ -99,13 +98,15 @@ cities_only = settlements.loc[settlements['STATUS'] == 'City'] # Separating citi
 
 # ShapelyFeature creates a polygon, so for point data we can just use ax.plot()
 # Towns plotting
-town_handle = ax.plot(towns_only.geometry.x, towns_only.geometry.y, 's', color='0.5', ms=6, transform=ccrs.PlateCarree())
+town_handle = ax.plot(towns_only.geometry.x, towns_only.geometry.y, 's', color='1', ms=6, transform=ccrs.PlateCarree())
 
 # Cities plotting
 city_handle = ax.plot(cities_only.geometry.x, cities_only.geometry.y, 'D', color='0.5', ms=6, transform=ccrs.PlateCarree())
 
 # add Scale Bar
 scale_bar(ax)
+
+# add Legend
 
 
 # finally, try to add a transparent overlay to the map
