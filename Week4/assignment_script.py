@@ -76,7 +76,6 @@ fig, ax = plt.subplots(1, 1, figsize=(10, 10), subplot_kw=dict(projection=ni_utm
 ax.set_extent([xmin, xmax, ymin, ymax], crs=ni_utm) # Setting figure extent
 
 
-
 # now, add the satellite image to the map
 
 
