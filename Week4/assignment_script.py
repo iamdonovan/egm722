@@ -7,7 +7,7 @@ from shapely.ops import unary_union
 from shapely.geometry.polygon import Polygon
 from cartopy.feature import ShapelyFeature
 import matplotlib.patches as mpatches
-import generate_handles import generate_handles
+from generate_handles import generate_handles
 
 def percentile_stretch(img, pmin=0., pmax=100.):
     '''
@@ -85,6 +85,7 @@ stretch = [0.1, 99.9] # a list of percentile values
 h, ax = img_display(img, ax, [2, 1, 0], stretch_args=stretch, **disp_kwargs) # Adding raster details map
 
 # next, add the county outlines to the map
+# Defining county features
 county_outlines = ShapelyFeature(counties['geometry'], ni_utm, edgecolor='r', facecolor='none')
 ax.add_feature(county_outlines)
 
