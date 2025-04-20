@@ -7,7 +7,7 @@ from shapely.ops import unary_union
 from shapely.geometry.polygon import Polygon
 from cartopy.feature import ShapelyFeature
 import matplotlib.patches as mpatches
-
+import generate_handles
 
 def percentile_stretch(img, pmin=0., pmax=100.):
     '''
@@ -75,14 +75,24 @@ ni_utm = ccrs.UTM(29) # note that this matches with the CRS of our image
 fig, ax = plt.subplots(1, 1, figsize=(10, 10), subplot_kw=dict(projection=ni_utm)) # create figure outline
 ax.set_extent([xmin, xmax, ymin, ymax], crs=ni_utm) # Setting figure extent
 
-
 # now, add the satellite image to the map
 
+disp_kwargs = {'extent': [xmin, xmax, ymin, ymax], # Setting up display characteristics
+               'transform': ni_utm}
+
+stretch = [0.1, 99.9] # a list of percentile values
+
+h, ax = img_display(img, ax, [2, 1, 0], stretch_args=stretch, **disp_kwargs) # Adding raster details map
 
 # next, add the county outlines to the map
+county_outlines = ShapelyFeature(counties['geometry'], ni_utm, edgecolor='r', facecolor='none')
+ax.add_feature(county_outlines)
 
+county_handles = generate_handles([''], ['none'], edge='r')
 
 # then, add the town and city points to the map, but separately
+
+
 
 
 # finally, try to add a transparent overlay to the map
