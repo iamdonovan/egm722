@@ -68,7 +68,6 @@ ni_outline = gpd.read_file('Week3/data_files/NI_outline.shp') # load the NI outl
 
 # Converting shapefile CRSs
 counties = counties.to_crs(epsg=2158)
-settlements = settlements.to_crs(epsg=2158)
 ni_outline = ni_outline.to_crs(epsg=2158)
 
 # next, create the figure and axis objects to add the map to
@@ -82,7 +81,7 @@ disp_kwargs = {'extent': [xmin, xmax, ymin, ymax], # Setting up display characte
 
 stretch = [0.1, 99.9] # a list of percentile values
 
-#h, ax = img_display(img, ax, [2, 1, 0], stretch_args=stretch, **disp_kwargs) # Adding raster details map
+h, ax = img_display(img, ax, [2, 1, 0], stretch_args=stretch, **disp_kwargs) # Adding raster details map
 
 # next, add the county outlines to the map
 # Defining county features
@@ -98,9 +97,9 @@ cities_only = settlements.loc[settlements['STATUS'] == 'City'] # Separating citi
 # ShapelyFeature creates a polygon, so for point data we can just use ax.plot()
 
 # Towns plotting
-town_handle = ax.plot(towns_only.geometry.x, towns_only.geometry.y, 's', color='1', ms=6, transform=ccrs.PlateCarree())
+town_handle = ax.plot(towns_only.geometry.x, towns_only.geometry.y, 's', color='g', ms=6, transform=ccrs.PlateCarree())
 # Cities plotting
-city_handle = ax.plot(cities_only.geometry.x, cities_only.geometry.y, 'D', color='0.5', ms=6, transform=ccrs.PlateCarree())
+city_handle = ax.plot(cities_only.geometry.x, cities_only.geometry.y, 'D', color='r', ms=6, transform=ccrs.PlateCarree())
 
 
 # add Scale Bar
