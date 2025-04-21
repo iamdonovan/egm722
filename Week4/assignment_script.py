@@ -82,7 +82,7 @@ disp_kwargs = {'extent': [xmin, xmax, ymin, ymax], # Setting up display characte
 
 stretch = [0.1, 99.9] # a list of percentile values
 
-h, ax = img_display(img, ax, [2, 1, 0], stretch_args=stretch, **disp_kwargs) # Adding raster details map
+#h, ax = img_display(img, ax, [2, 1, 0], stretch_args=stretch, **disp_kwargs) # Adding raster details map
 
 # next, add the county outlines to the map
 # Defining county features
